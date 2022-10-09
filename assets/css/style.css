@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+header, footer {
+    background-color: darkcyan;
+    width: 100%;
+    padding: 10px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+
+footer {
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+nav ul {
+    text-align: end;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px 10px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#section-aboutme {
+    background-color: white;
+    margin-top: 50px;
+}
+
+#section-aboutme p {
+    text-align: center;
+    margin: 20px 0px;
+    padding-bottom: 20px;
+}
+
+.img-box {
+    background-color: lightslategrey;
+    margin: auto;  
+}
+
+#img-box-1 #img-box-2, #img-box-3, #img-box-4 {
+    position: relative;
+    top: 15px;
+}
+
+#img-box-1 {
+    width: 350px;
+    height: 350px;
+    z-index: 1;
+}
+
+#img-box-2 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid beige;
+    z-index: 2;
+}
+
+#img-box-3 {
+    width: 250px;
+    height: 250px;
+    border: 10px solid darkcyan;
+    z-index: 3;
+}
+
+#img-box-4 {
+    width: 200px;
+    height: 200px;
+    border: 10px solid blueviolet;
+    z-index: 4;
+}
+
+.div-input {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.contact-input {
+    padding-left: 5px;
+    width: 250px;
+}
+
+#contact-form {
+    border: 5px solid orange;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 400px;
+}
+
+#contact-form button {
+    margin-left: 150px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: lightslategrey;
+}
